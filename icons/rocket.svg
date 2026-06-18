@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Rocket growth">
+
+<defs>
+  <linearGradient id="g" x1="10" y1="12" x2="118" y2="120" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C3CFF"/>
+    <stop offset="0.52" stop-color="#FF4FD8"/>
+    <stop offset="1" stop-color="#D6F74D"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<path d="M73 15c22 8 33 29 36 58L80 62 66 49 73 15Z" fill="url(#g)" stroke="#F8F4FF" stroke-width="3"/>
+<circle cx="84" cy="42" r="9" fill="#0A0911" stroke="#F8F4FF" stroke-width="3"/>
+<path d="M66 49 35 58l21 18 10-27ZM80 62l-4 35 22-22-18-13Z" fill="#422083" stroke="#F8F4FF" stroke-width="3"/>
+<path d="M50 78c-14 5-23 16-27 30 15-3 27-12 35-25" fill="#D6F74D" stroke="#F8F4FF" stroke-width="3"/>
+</svg>

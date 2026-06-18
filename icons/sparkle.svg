@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Sparkle">
+
+<defs>
+  <linearGradient id="g" x1="10" y1="12" x2="118" y2="120" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C3CFF"/>
+    <stop offset="0.52" stop-color="#FF4FD8"/>
+    <stop offset="1" stop-color="#D6F74D"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<path d="M64 8 76 48l40 16-40 16-12 40-12-40-40-16 40-16L64 8Z" fill="url(#g)" filter="url(#glow)"/>
+<path d="M24 18l5 15 15 5-15 5-5 15-5-15-15-5 15-5 5-15Z" fill="#D6F74D" opacity=".9"/>
+</svg>

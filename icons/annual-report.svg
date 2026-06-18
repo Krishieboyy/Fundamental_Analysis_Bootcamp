@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Annual report document">
+
+<defs>
+  <linearGradient id="g" x1="10" y1="12" x2="118" y2="120" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C3CFF"/>
+    <stop offset="0.52" stop-color="#FF4FD8"/>
+    <stop offset="1" stop-color="#D6F74D"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<path d="M34 14h44l22 22v78H34V14Z" fill="#11101A" stroke="url(#g)" stroke-width="4"/>
+<path d="M78 15v23h23" fill="none" stroke="#F8F4FF" stroke-width="4"/>
+<path d="M48 55h34M48 72h34M48 89h20" stroke="#F8F4FF" stroke-width="5" stroke-linecap="round"/>
+<circle cx="48" cy="36" r="7" fill="#D6F74D"/>
+</svg>

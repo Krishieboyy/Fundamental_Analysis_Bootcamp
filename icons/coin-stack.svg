@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Coin stack">
+
+<defs>
+  <linearGradient id="g" x1="10" y1="12" x2="118" y2="120" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C3CFF"/>
+    <stop offset="0.52" stop-color="#FF4FD8"/>
+    <stop offset="1" stop-color="#D6F74D"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<ellipse cx="64" cy="28" rx="36" ry="15" fill="#D6F74D" stroke="#F8F4FF" stroke-width="3"/>
+<path d="M28 28v56c0 8 16 16 36 16s36-8 36-16V28" fill="#8362FF" stroke="#F8F4FF" stroke-width="3"/>
+<ellipse cx="64" cy="55" rx="36" ry="15" fill="#5E3ED6" stroke="#F8F4FF" stroke-width="3"/>
+<ellipse cx="64" cy="82" rx="36" ry="15" fill="#D6F74D" stroke="#F8F4FF" stroke-width="3"/>
+<text x="55" y="62" font-family="Arial" font-size="28" font-weight="800" fill="#0B0912">₹</text>
+</svg>

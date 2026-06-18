@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Cash flow">
+
+<defs>
+  <linearGradient id="g" x1="10" y1="12" x2="118" y2="120" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C3CFF"/>
+    <stop offset="0.52" stop-color="#FF4FD8"/>
+    <stop offset="1" stop-color="#D6F74D"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<path d="M28 38h56c14 0 25 11 25 25S98 88 84 88H48" fill="none" stroke="url(#g)" stroke-width="10" stroke-linecap="round"/>
+<path d="M46 22 28 38l18 16M82 72l18 16-18 16" fill="none" stroke="#F8F4FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="64" cy="63" r="14" fill="#D6F74D"/>
+<text x="57" y="72" font-family="Arial" font-weight="800" font-size="24" fill="#090812">₹</text>
+</svg>

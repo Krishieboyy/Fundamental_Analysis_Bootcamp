@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Neon prism cube">
+
+<defs>
+  <linearGradient id="g" x1="10" y1="12" x2="118" y2="120" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C3CFF"/>
+    <stop offset="0.52" stop-color="#FF4FD8"/>
+    <stop offset="1" stop-color="#D6F74D"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<path d="M80 10 138 44v72L80 150 22 116V44L80 10Z" fill="#120E21" stroke="url(#g)" stroke-width="4"/>
+<path d="M80 10v70l58-36" fill="#7C3CFF" opacity=".75"/>
+<path d="M80 80v70l58-34V44L80 80Z" fill="#FF4FD8" opacity=".65"/>
+<path d="M80 80 22 44v72l58 34V80Z" fill="#5931C8" opacity=".8"/>
+<path d="M42 62 80 84l38-22" stroke="#F8F4FF" stroke-opacity=".6" stroke-width="3"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 76" role="img" aria-label="Finance and Economics Club IIT Guwahati logo placeholder">
+
+<defs>
+  <linearGradient id="g" x1="10" y1="12" x2="118" y2="120" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C3CFF"/>
+    <stop offset="0.52" stop-color="#FF4FD8"/>
+    <stop offset="1" stop-color="#D6F74D"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect x="3" y="3" width="214" height="70" rx="28" fill="#090812" stroke="#3A2B59"/>
+<circle cx="38" cy="38" r="21" fill="url(#g)" filter="url(#glow)"/>
+<path d="M30 48 38 24l8 24M33 40h10" stroke="#08070F" stroke-width="5" stroke-linecap="round"/>
+<text x="72" y="34" fill="#F8F4FF" font-family="Outfit, Arial" font-size="16" font-weight="800">Finance &amp;</text>
+<text x="72" y="53" fill="#BDB4DE" font-family="Outfit, Arial" font-size="14" font-weight="600">Economics Club IITG</text>
+</svg>

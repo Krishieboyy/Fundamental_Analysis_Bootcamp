@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Candlestick chart">
+
+<defs>
+  <linearGradient id="g" x1="10" y1="12" x2="118" y2="120" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C3CFF"/>
+    <stop offset="0.52" stop-color="#FF4FD8"/>
+    <stop offset="1" stop-color="#D6F74D"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<path d="M30 20v88M64 10v108M98 30v78" stroke="#F8F4FF" stroke-width="5" stroke-linecap="round"/>
+<rect x="20" y="42" width="20" height="38" rx="6" fill="#D6F74D"/>
+<rect x="54" y="26" width="20" height="52" rx="6" fill="#7C3CFF"/>
+<rect x="88" y="54" width="20" height="34" rx="6" fill="#FF4FD8"/>
+</svg>
